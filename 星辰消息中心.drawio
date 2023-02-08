@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T08:53:46.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nYjQiIPIpj_ZTylxXIIL" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T08:55:35.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KZNDY2J1hqD5PrpXGfCL" version="20.8.16" type="github">
   <diagram name="第 1 页" id="_mL-_6IBEwXPI1ywCyAi">
-    <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2021" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,6 +77,33 @@
         </mxCell>
         <mxCell id="qWqL7m0G6dDGyJ0lg5-A-103" value="Web" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1030" y="350" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qWqL7m0G6dDGyJ0lg5-A-104" value="定时任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWqL7m0G6dDGyJ0lg5-A-106" value="Api业务调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWqL7m0G6dDGyJ0lg5-A-107" value="MsgQueue队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWqL7m0G6dDGyJ0lg5-A-111" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qWqL7m0G6dDGyJ0lg5-A-107" target="qWqL7m0G6dDGyJ0lg5-A-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="210" as="sourcePoint" />
+            <mxPoint x="40" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWqL7m0G6dDGyJ0lg5-A-112" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qWqL7m0G6dDGyJ0lg5-A-106" target="qWqL7m0G6dDGyJ0lg5-A-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="250" as="sourcePoint" />
+            <mxPoint x="120" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWqL7m0G6dDGyJ0lg5-A-113" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qWqL7m0G6dDGyJ0lg5-A-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="180" as="sourcePoint" />
+            <mxPoint x="110" y="170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
