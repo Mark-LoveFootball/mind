@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T09:12:51.280Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4KlFMrYi6SxTe_EG7rxu" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T10:22:16.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="6Ix8P1_VPAufc3ipz1DQ" version="20.8.16" type="github">
   <diagram name="第 1 页" id="_mL-_6IBEwXPI1ywCyAi">
     <mxGraphModel dx="1781" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qWqL7m0G6dDGyJ0lg5-A-166" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#EA6B66;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="100" y="90" width="470" height="160" as="geometry" />
+          <mxGeometry x="100" y="90" width="620" height="160" as="geometry" />
         </mxCell>
         <mxCell id="qWqL7m0G6dDGyJ0lg5-A-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qWqL7m0G6dDGyJ0lg5-A-71" target="qWqL7m0G6dDGyJ0lg5-A-72">
           <mxGeometry relative="1" as="geometry" />
@@ -183,6 +183,12 @@
           <mxGeometry x="-0.287" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qWqL7m0G6dDGyJ0lg5-A-177" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#7D7B7D;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qWqL7m0G6dDGyJ0lg5-A-179" value="&lt;ul style=&quot;font-size: 24px;&quot;&gt;&lt;li&gt;&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 24px;&quot;&gt;消息生产： 涉及到的场景会很多，比如活动、经营日报、业务流转、预警等&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;消息管理：创建消息任务，维护任务的推送管理，跟进消息的状态。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;消息消费：基于消息任务的结构，构建消息推送的内容，并发送到多个消息渠道。&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;渠道对接：&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=16;fontColor=#7D7B7D;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="370" width="970" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
