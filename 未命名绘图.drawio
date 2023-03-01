@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T12:01:45.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="JQyUjt_EpUZnRRCa5dpg" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-01T12:04:31.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="By7558JI5YEg4tIMdnAN" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1014" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1841" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -136,6 +136,15 @@
         </mxCell>
         <mxCell id="YihEbYi0JGkwcBn-P24o-77" value="服务端构造index.html" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="403" y="370" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YihEbYi0JGkwcBn-P24o-82" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;dashed=1;labelBorderColor=default;strokeColor=#0a69e6;fontColor=#03a58a;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="410" as="sourcePoint" />
+            <mxPoint x="145" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YihEbYi0JGkwcBn-P24o-83" value="这里不需要经过登录鉴权/路由拦截" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=#f8f7f7;fontColor=#a50334;fillColor=none;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-30" y="365" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
